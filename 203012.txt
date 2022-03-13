@@ -1,0 +1,18 @@
+najprvo so $ mkdir labb1 $ cd labb1 $ git init sozdadov nov repo 
+4.za kloniranje ja iskoristiv komandata $ git clone https://github.com/ivanadimitrova123/SI_2022_lab1_203012.git 
+5.napraviv shopping_list.txt vo koja dodadov 5 proizvodi i so komandata $ git add . go dodadev dokumentot, pa a so komandata $ git commit -am "Add 5 items to the shopping list" napraviv commit
+6.vo sodrzinata na shopping_list.txt dodadev kolicini i potoa ja upotrebiv komandata $ git commit -am “Add quantities to the items.”
+7.grankite ke napraviv so $ git checkout -b branch1 pa $ git checkout master pa $ git checkout -b branch2
+9.sinhronizacija napraviv so $ git checkout master $ git push pa $ git checkout branch1 $ git push --set-upstream origin branch1 pa $ git checkout branch2  $ git push --set-upstream origin branch2
+10.prefrlanje napraviv so $ git checkout branch1
+11.promeniv lokalno pa potoa ja iskoristiv komandata $ git commit -am "Change quantity of item #5"
+12.prefrlanje napraviv so $ git checkout master
+13.promeniv lokalno pa potoa ja iskoristiv komandata $ git commit -am "Change quantity of item #2"
+14.napraviv $ git push
+15.prefrlanje napraviv so $ git checkout branch2
+16.promeniv lokalno pa potoa ja iskoristiv komandata $ git commit -am "Modify item #4"
+18.promeniv lokalno pa potoa ja iskoristiv komandata $ git commit --amend -am " and add item #6"
+20.prefrlanje napraviv so $ git checkout master, a spojuvanje se $ git merge branch1 i mi se otvori prozorec kade treba da se vnese poraka Merge branch 'branch1' od ovoj prozorec izlegov so :qw
+21.isto kako 20. mi se pojavi konflikt koj go resiv taka sto vo shopping_list.txt gi izbrisav <<<<HEAD, ====,>>>> i razlikite, napraviv commit so poraka "Resolved conflict" i gi pushnav 
+22.ja dodadev lokalno  datotekata, napraviv $ git add . pa potoa napraviv $ git commit -am "Add docs"
+23.napraviv $ git push za sinhronizacija
